@@ -1,0 +1,64 @@
+ 
+
+ h1 {
+     text-align: center;
+     color: wheat;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .container {
+     background: rgb(63, 62, 62);
+     height: 400px;
+     width: 301px;
+     margin: auto;
+     padding: 10px;
+     border-radius: 10px;
+     padding-bottom: 30px;
+     box-shadow: 8px 8px 40px rgb(0, 0, 0, 0.3);
+ }
+
+#screen {
+    background:aqua;
+    height: 45px;
+    width: 259px;
+    margin: 5px;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: rgb(81, 80, 80);
+    height: 50px;
+    width: 48px;
+    margin: 10px;
+    color: white;
+    border-radius: 8px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 30px rgb(0, 0, 0);
+    
+    
+}
+
+ .button:hover {
+    border: 3px solid yellow;
+}
+
+
+.clear {
+    background: red;
+}
+
+.operator {
+    background-color: rgb(245, 146, 62);
+    color: black;
+    
+}
+
+.equal {
+    background: green;
+}
